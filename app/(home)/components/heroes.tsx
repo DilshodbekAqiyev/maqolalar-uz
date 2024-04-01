@@ -16,10 +16,10 @@ export const Heroes = () => {
     <>
       <div className="max-w-3xl space-y-4">
         <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold">
-          Yozing, rejalashtiring, baham ko'ring. AI sizning yoningizda.
+          Yozing, rejalashtiring, baham ko`ring. AI sizning yoningizda.
         </h1>
         <h3 className="text-base sm:text-xl md:text-2xl font-medium">
-          Tushuncha - bu yaxshiroq va tezroq ish amalga oshiriladigan bog'langan
+          Tushuncha - bu yaxshiroq va tezroq ish amalga oshiriladigan bog`langan
           ish maydoni.
         </h3>
         {isLoading && (
