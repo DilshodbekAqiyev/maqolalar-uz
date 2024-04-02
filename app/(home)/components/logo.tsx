@@ -9,7 +9,7 @@ export const Logo = () => {
         alt="Logo"
         width={50}
         height={50}
-        className="object-cover dark:hidden"
+        className="object-contain dark:hidden"
       />
       <Image
         src={"/logo-dark.jpg"}

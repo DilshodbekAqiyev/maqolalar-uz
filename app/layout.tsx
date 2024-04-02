@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "Kundalik ish ilovalaringizni bittaga birlashtirgan yangi vosita. Bu siz va sizning jamoangiz uchun yaxlit ish maydoni",
   icons: {
-    icon: "/logo.svg",
+    icon: "/logo-dark.jpg",
   },
 };
 
