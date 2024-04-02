@@ -31,7 +31,8 @@ export const Heroes = () => {
         {isAuthenticated && !isLoading && (
           <Button asChild>
             <Link href={"/documents"}>
-              Notionga tashrif buyurish <ArrowRight className="h-4 w-4 ml-2" />
+              Maqolalarga tashrif buyurish{" "}
+              <ArrowRight className="h-4 w-4 ml-2" />
             </Link>
           </Button>
         )}
@@ -40,7 +41,7 @@ export const Heroes = () => {
           <>
             <SignInButton mode="modal">
               <Button>
-                Notionni bepul olish <ArrowRight className="h-4 w-4 ml-2" />
+                Maqolalarni bepul olish <ArrowRight className="h-4 w-4 ml-2" />
               </Button>
             </SignInButton>
           </>

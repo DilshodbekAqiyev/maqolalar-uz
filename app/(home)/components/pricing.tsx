@@ -57,7 +57,7 @@ const cards = [
   {
     title: "Business",
     subtitle:
-      "Notion-dan bir nechta jamoalar va vositalarni ulash uchun foydalanadigan kompaniyalar uchun.",
+      "Maqolalar-dan bir nechta jamoalar va vositalarni ulash uchun foydalanadigan kompaniyalar uchun.",
     options:
       "SAML SSO, Shaxsiy jamoalar, ommaviy PDF eksporti, Kengaytirilgan sahifa tahlili, 90 kunlik sahifa tarixi, 250 mehmonni taklif qilish",
     price: "15",

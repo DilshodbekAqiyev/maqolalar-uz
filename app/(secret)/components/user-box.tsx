@@ -28,7 +28,7 @@ export const UserBox = () => {
               <AvatarImage src={user?.imageUrl} />
             </Avatar>
             <span className="text-start font-medium line-clamp-1">
-              {user?.firstName}&apos;s Notion
+              {user?.firstName}ning Maqolalari
             </span>
           </div>
 
@@ -55,7 +55,7 @@ export const UserBox = () => {
 
             <div className="space-y-1">
               <p className="text-sm line-clamp-1">
-                {user?.fullName}ning Notioni
+                {user?.fullName}ning Maqolalari
               </p>
             </div>
           </div>

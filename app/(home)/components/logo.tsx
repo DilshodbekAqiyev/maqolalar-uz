@@ -5,20 +5,20 @@ export const Logo = () => {
   return (
     <div className="flex items-center gap-x-2">
       <Image
-        src={"/logo.svg"}
+        src={"/logo.jpg"}
         alt="Logo"
         width={50}
         height={50}
         className="object-cover dark:hidden"
       />
       <Image
-        src={"/logo-dark.svg"}
+        src={"/logo-dark.jpg"}
         alt="Logo"
         width={50}
         height={50}
         className="object-cover hidden dark:block"
       />
-      <p className="font-semibold text-xl">Notion</p>
+      <p className="font-semibold text-xl">Maqolalar</p>
     </div>
   );
 };

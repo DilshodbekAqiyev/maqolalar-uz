@@ -71,7 +71,7 @@ const SettingsModal = () => {
           <div className="flex flex-col gap-y-1">
             <Label>Ko`rinish</Label>
             <span className="text-[0.8rem] text-muted-foreground">
-              Notion qurilmangizda qanday ko‘rinishini moslashtiring
+              Maqolalar qurilmangizda qanday ko‘rinishini moslashtiring
             </span>
           </div>
           <ModeToggle />

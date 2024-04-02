@@ -34,7 +34,7 @@ export const Navbar = () => {
               </Button>
             </SignInButton>
             <SignInButton mode="modal">
-              <Button size={"sm"}>Notionni bepul olish</Button>
+              <Button size={"sm"}>Maqolalarni bepul olish</Button>
             </SignInButton>
           </>
         )}
@@ -42,7 +42,7 @@ export const Navbar = () => {
         {isAuthenticated && !isLoading && (
           <>
             <Button variant={"ghost"} size={"sm"} asChild>
-              <Link href={"/documents"}>Notionga kirish</Link>
+              <Link href={"/documents"}>Maqolalarga kirish</Link>
             </Button>
             <UserButton afterSignOutUrl="/" />
           </>

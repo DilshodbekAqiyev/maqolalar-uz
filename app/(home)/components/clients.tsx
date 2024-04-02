@@ -5,7 +5,7 @@ export const Clients = () => {
   return (
     <div className="max-w-xl">
       <h2 className="text-4xl mt-6 font-bold">
-        Har kuni millionlab odamlar Notion-da ishlaydi
+        Har kuni millionlab odamlar Maqolalar-da ishlaydi
       </h2>
       <p className="opacity-70 mt-2">
         Yangi avlod start-uplaridan tortib dunyoning eng yaxshi jamoalarini
