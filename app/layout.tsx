@@ -23,8 +23,61 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const canonicalUrl = `https://maqolalar-uz.vercel.app/`;
+
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <meta name="keywords" content="Vercel, Next.js, SEO, maqolalar" />
+        <title>Maqolalar - Eng yangi ish maydoni</title>
+        <meta
+          name="description"
+          content="Kundalik ish ilovalaringizni bittaga birlashtirgan yangi vosita. Bu siz va sizning jamoangiz uchun yaxlit ish maydoni"
+        />
+        <meta property="og:title" content="Maqolalar - Eng yangi ish maydoni" />
+        <meta
+          property="og:description"
+          content="Kundalik ish ilovalaringizni bittaga birlashtirgan yangi vosita. Bu siz va sizning jamoangiz uchun yaxlit ish maydoni"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/logo.jpg" />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta
+          property="article:published_time"
+          content="2024-04-02T08:00:00+08:00"
+        />
+        <meta property="article:author" content="Muallif nomi" />
+        <link rel="canonical" href={canonicalUrl} />
+        <meta
+          name="keywords"
+          content="Vercel, deploy, Next.js, maqolalar, SEO"
+        />
+        <title>Maqolalar - Eng yangi ish maydoni</title>
+        <meta
+          name="description"
+          content="Maqolalar sahifasi sizning kunlik ish bilan bog'langan yangi usullar to'plamidir."
+        />
+        <meta property="og:title" content="Maqolalar - Eng yangi ish maydoni" />
+        <meta
+          property="og:description"
+          content="Maqolalar sahifasi sizning kunlik ish bilan bog'langan yangi usullar to'plamidir."
+        />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:image"
+          content="https://example.com/maqolalar-uz.vercel.app/og-image.jpg"
+        />
+        <meta property="og:url" content="https://maqolalar-uz.vercel.app/" />
+        <meta
+          property="article:published_time"
+          content="2024-04-02T08:00:00+08:00"
+        />
+        <meta
+          property="article:author"
+          content="Axborot texnologiyalari fakulteti"
+        />
+        <link rel="canonical" href="https://maqolalar-uz.vercel.app/" />
+      </head>
       <body className={inter.className}>
         <ConvexClientProvider>
           <EdgeStoreProvider>

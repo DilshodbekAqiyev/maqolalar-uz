@@ -1,4 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
+
 import { Clients, Footer, Heroes, Pricing } from "./components";
+import { Results } from "./components/results";
 
 export default function Home() {
   return (
@@ -8,6 +11,12 @@ export default function Home() {
         <Clients />
       </div>
       <Pricing />
+      <img
+        src={"/screen.png"}
+        alt="screen"
+        className="w-full max-w-[1024px] h-[640px] mx-auto my-5"
+      />
+      <Results />
       <Footer />
     </div>
   );
