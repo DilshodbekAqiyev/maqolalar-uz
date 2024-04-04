@@ -10,13 +10,13 @@ export default function Home() {
         <Heroes />
         <Clients />
       </div>
-      <Pricing />
       <img
         src={"/screen.png"}
         alt="screen"
         className="w-full max-w-[1024px] h-[640px] mx-auto my-5"
       />
       <Results />
+      <Pricing />
       <Footer />
     </div>
   );
