@@ -30,13 +30,9 @@ export default function RootLayout({
       <head>
         <meta name="keywords" content="Vercel, Next.js, SEO, maqolalar" />
         <title>Maqolalar - Eng yangi ish maydoni</title>
-        <meta
-          name="description"
-          content="Kundalik ish ilovalaringizni bittaga birlashtirgan yangi vosita. Bu siz va sizning jamoangiz uchun yaxlit ish maydoni"
-        />
         <meta property="og:title" content="Maqolalar - Eng yangi ish maydoni" />
         <meta
-          property="og:description"
+          name="description"
           content="Kundalik ish ilovalaringizni bittaga birlashtirgan yangi vosita. Bu siz va sizning jamoangiz uchun yaxlit ish maydoni"
         />
         <meta property="og:type" content="website" />
@@ -52,28 +48,16 @@ export default function RootLayout({
           name="keywords"
           content="Vercel, deploy, Next.js, maqolalar, SEO"
         />
-        <meta
-          name="description"
-          content="Maqolalar sahifasi sizning kunlik ish bilan bog'langan yangi usullar to'plamidir."
-        />
-        <meta property="og:title" content="Maqolalar - Eng yangi ish maydoni" />
-        <meta
-          property="og:description"
-          content="Maqolalar sahifasi sizning kunlik ish bilan bog'langan yangi usullar to'plamidir."
-        />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:image"
-          content="https://example.com/maqolalar-uz.vercel.app/og-image.jpg"
-        />
-        <meta property="og:url" content="https://maqolalar-uz.vercel.app/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/og-image.png" />
+        <meta property="og:url" content="https://maqolalar-uz.vercel.app" />
         <meta
           property="article:published_time"
           content="2024-04-02T08:00:00+08:00"
         />
         <meta
           property="article:author"
-          content="Axborot texnologiyalari fakulteti"
+          content="https://github.com/DilshodbekAqiyev"
         />
         <meta
           name="google-site-verification"
