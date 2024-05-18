@@ -18,7 +18,7 @@ export const Logo = () => {
         height={50}
         className="object-cover hidden dark:block"
       />
-      <p className="font-semibold text-xl">Maqolalar</p>
+      <h1 className="font-semibold text-xl">Maqolalar</h1>
     </div>
   );
 };
