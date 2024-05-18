@@ -52,7 +52,6 @@ export default function RootLayout({
           name="keywords"
           content="Vercel, deploy, Next.js, maqolalar, SEO"
         />
-        <title>Maqolalar - Eng yangi ish maydoni</title>
         <meta
           name="description"
           content="Maqolalar sahifasi sizning kunlik ish bilan bog'langan yangi usullar to'plamidir."
@@ -75,6 +74,10 @@ export default function RootLayout({
         <meta
           property="article:author"
           content="Axborot texnologiyalari fakulteti"
+        />
+        <meta
+          name="google-site-verification"
+          content="nl2YV8oMGFK1lgfzYU3IxjThvW4uIOEKo-wSaSLi4mQ"
         />
         <link rel="canonical" href="https://maqolalar-uz.vercel.app/" />
       </head>
